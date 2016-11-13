@@ -1,4 +1,4 @@
-<div id="sidenav" data-spy="affix" data-offset-top="0">
+<div id="sidenav" class="container sidebar.affix-top">
 	<h3>Products</h3>
 	<ul id="left-product-list" class="list-unstyled">
 		<li><a href="products">Computer Cases</a></li>
@@ -12,6 +12,6 @@
 		<li><a href="products">Memory (RAM)</a></li>
 		<li><a href="products">Optical Drives</a></li>
 		<li><a href="products">Power Supplies</a></li>
-		<li><a href="products">Racks/Accessories</a></li>
+		<li><a href="products">Racks / Accessories</a></li>
 	</ul>
 </div>

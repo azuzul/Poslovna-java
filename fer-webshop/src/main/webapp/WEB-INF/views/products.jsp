@@ -16,9 +16,9 @@
 			</div>
 			<div class="col-xs-8 col-sm-9">
 			
-			<div class="row thumbnail margin-right-5">
+			<div class="row thumbnail margin-right-5" >
 				<div class="hidden-xs col-sm-7 col-md-6 col-lg-5 padding-10">
-					<img src="resources/app/img/pic300250.png" alt="Product" />
+					<img src="resources/app/img/pic300250.png" class="img-rounded" alt="Product" />
 				</div>
 				<div class="col-xs-12 col-sm-5 col-md-6 col-lg-7">
 					<h3>Product 01 name</h3>
