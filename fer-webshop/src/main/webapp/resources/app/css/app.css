@@ -1,3 +1,8 @@
+body, header{
+	min-width: 400px;
+	width: auto;
+}
+
 /* Conatiner */
 .container-navbar-offset {
 	margin-top: 70px;
@@ -8,16 +13,13 @@
 	text-align: center;
 }
 
+/* Navbar */
 a.navbar-title-link, a:hover.navbar-title-link{
 	color: #d7eeec;
 	text-decoration: none;
 }
 
-body, header{
-	min-width: 400px;
-	width: auto;
-}
-
+/* Carousel */
 div.carousel-wrapper{
 	width: 60%;
 	margin: auto;
@@ -30,8 +32,20 @@ div.carousel-wrapper{
 	margin: auto;
 }
 
+.enhanced {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.login-thumbnail {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+
  .padding-6{
  	margin-top: 6px;
+ 	margin-bottom: 6px;
  }
  
  /* Forms */
@@ -39,3 +53,22 @@ div.carousel-wrapper{
  	font-size: 18px;
  }
  
+ .header-text{
+ 	margin-top: 10px;
+ 	font-size: 26px;
+ 	color: #009688;
+ }
+ 
+.product-name{
+	margin-top: 10px;
+	font-size: 26px;
+}	
+
+.product-price, .product-status{
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.product-specification{
+	font-size: 18px;
+}

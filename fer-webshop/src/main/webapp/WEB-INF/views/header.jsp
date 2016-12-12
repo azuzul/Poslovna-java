@@ -7,10 +7,10 @@
 					</h3>
 				</div>
 				<div class="col-xs-8">
-					<h5 align="right">
+					<p align="right" style="font-size: 14px; margin-top: 10px">
 						<a class="navbar-title-link" href="signin">Log In | Sign Up </a> <img
 							src="resources/app/img/cart.png">
-					</h5>
+					</p>
 				</div>
 			</div>
 		</div>

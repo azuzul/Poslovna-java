@@ -13,7 +13,7 @@
 			</div>
 			<div class="col-xs-8 col-sm-9">
 				<div class="row thumbnail">
-					<h3 class="bold text-primary">Presonal informations</h3>
+					<h3 class="bold text-primary">Personal informations</h3>
 					<div class="row">
 						<div class="col-xs-6">
 							<p class="form-text">Last name*:</p>
