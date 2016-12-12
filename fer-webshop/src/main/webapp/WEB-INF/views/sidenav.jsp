@@ -1,10 +1,10 @@
-<div id="sidenav" class="container sidebar.affix-top">
+<div id="sidenav" data-spy="affix" data-offset-top="0">
 	<h3>Products</h3>
 	<ul id="left-product-list" class="list-unstyled">
 		<li><a href="products">Computer Cases</a></li>
 		<li><a href="products">CPUs / Processors</a></li>
 		<li><a href="products">Fans, Heatsinks, Cooling</a></li>
-		<li><a href="products">GPUs/Video Graphic Cards</a></li>
+		<li><a href="products">GPUs / Video Graphic Cards</a></li>
 		<li><a href="products">Motherboards</a></li>
 		<li><a href="products">Hard Drives, Storage</a></li>
 		<li><a href="products">Hard Drive Enclosures</a></li>

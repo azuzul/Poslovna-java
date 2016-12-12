@@ -30,8 +30,12 @@ div.carousel-wrapper{
 	margin: auto;
 }
 
- .sidebar.affix-top {
-    position: static;
-    margin-top:30px;
-    width:300px;
+ .padding-6{
+ 	margin-top: 6px;
  }
+ 
+ /* Forms */
+ .form-text{
+ 	font-size: 18px;
+ }
+ 
