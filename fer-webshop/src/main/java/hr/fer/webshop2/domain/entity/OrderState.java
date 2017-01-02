@@ -10,8 +10,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "[user]")
-public class User implements Serializable {
+@Table(name = "[order_state]")
+public class OrderState implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -20,11 +20,8 @@ public class User implements Serializable {
     @Column(name = "[id]")
     private Long id;
 
-    @Column(name = "[first_name]")
-    private String firstName;
-
-    @Column(name = "[last_name]")
-    private String lastName;
+    @Column(name = "[name]")
+    private String name;
 
     public Long getId() {
         return id;
@@ -34,20 +31,12 @@ public class User implements Serializable {
         this.id = id;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getName() {
+        return name;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setName(String name) {
+        this.name = name;
     }
 
 }
