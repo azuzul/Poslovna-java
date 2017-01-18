@@ -1,3 +1,23 @@
+# eclipse ignore
+.project
+.metadata
+*.tmp
+*.bak
+*.swp
+*~.nib
+.classpath
+.settings/
+
+# mvn ignore
+*target*
+*.war
+*.ear
+*.classh
+
+# node ignore
+node_modules/
+npm-debug.log
+
 *.class
 
 # Mobile Tools for Java (J2ME)

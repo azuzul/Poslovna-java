@@ -7,5 +7,5 @@ import hr.fer.webshop2.domain.entity.User;
 
 @RestController
 @RequestMapping("/users")
-public class UserController extends JpaRestController<User>{
+public class UserController extends JpaRestController<User> {
 }

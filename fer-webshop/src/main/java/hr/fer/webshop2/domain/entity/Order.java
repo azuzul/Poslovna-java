@@ -1,4 +1,3 @@
-
 package hr.fer.webshop2.domain.entity;
 
 import java.io.Serializable;
@@ -79,5 +78,15 @@ public class Order implements Serializable {
     public void setOrderState(OrderState orderState) {
         this.orderState = orderState;
     }
+
+	public List<Product> getProducts() {
+		return products;
+	}
+
+	public void setProducts(List<Product> products) {
+		this.products = products;
+	}
+	
+	
 
 }
