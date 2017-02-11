@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -26,6 +27,15 @@ public class User implements Serializable {
     @Column(name = "[last_name]")
     private String lastName;
 
+    @Column(name = "[username]")
+    private String userName;
+    
+    @Column(name = "[password]")
+    private String password;
+
+    @ManyToOne
+    private UserRole userRole;
+    
     public Long getId() {
         return id;
     }
@@ -50,4 +60,29 @@ public class User implements Serializable {
         this.lastName = lastName;
     }
 
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public UserRole getUserRole() {
+		return userRole;
+	}
+
+	public void setUserRole(UserRole userRole) {
+		this.userRole = userRole;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+    
 }

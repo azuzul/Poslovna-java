@@ -6,6 +6,10 @@ body, header{
 /* Conatiner */
 .container-navbar-offset {
 	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.navbar-fixed-bottom {
 	margin-bottom: 50px;
 }
 

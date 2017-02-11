@@ -1,5 +1,5 @@
 DELETE FROM "product_type" WHERE "id" IS NOT NULL;
--- SELECT * FROM  ADMIN."product_type";
+-- SELECT * FROM  "product_type";
 
 INSERT INTO "product_type"
 ("id", "name")
@@ -43,10 +43,10 @@ SELECT * FROM "product_type";
 
 DELETE FROM "order_product" WHERE "Order_id" IS NOT NULL;
 DELETE FROM "order" WHERE "id" IS NOT NULL;
--- SELECT * FROM Admin."order";
+-- SELECT * FROM "order";
 
 DELETE FROM "order_state" WHERE "id" IS NOT NULL;
--- SELECT * FROM Admin."order_state";
+-- SELECT * FROM "order_state";
 
 INSERT INTO "order_state"
 ("id", "name")
@@ -56,4 +56,18 @@ VALUES
 (2, 'delivered'),
 (3, 'canceled');
 
-SELECT * FROM "user";
+INSERT INTO "user_role"
+("id", "role")
+VALUES
+(1, 'ROLE_USER');
+
+
+INSERT INTO "user_role"
+("id", "role")
+VALUES
+(2, 'ROLE_ADMIN');
+
+INSERT INTO "user"
+("id", "first_name", "last_name", "password", "username", "userRole_id")
+VALUES
+(1, 'user', 'userich', 'pass', 'user', 1);
