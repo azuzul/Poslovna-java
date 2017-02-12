@@ -36,8 +36,19 @@ public class Product implements Serializable {
 
     @ManyToOne
     private ProductType productType;
+    
+    @Column(name = "[image_file_name]")
+    private String imageFileName;
 
-    public Long getId() {
+    public String getImageFileName() {
+		return imageFileName;
+	}
+
+	public void setImageFileName(String imageFileName) {
+		this.imageFileName = imageFileName;
+	}
+
+	public Long getId() {
         return id;
     }
 

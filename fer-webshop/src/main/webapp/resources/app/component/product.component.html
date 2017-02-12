@@ -6,7 +6,7 @@
 		<div class="col-xs-8 col-sm-9">
 			<div *ngFor="let product of products" class="row thumbnail margin-right-5">
 				<div class="hidden-xs col-sm-7 col-md-6 col-lg-5 padding-10">
-					<img src="app/img/pic300250.png" alt="Product" />
+					<img src="app/img/{{ product.imageFileName }}" alt="Product" />
 				</div>
 				<div class="col-xs-12 col-sm-5 col-md-6 col-lg-7">
 					<h1>{{ product.name }}</h1> 
